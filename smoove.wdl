@@ -86,7 +86,7 @@ task smoove_call {
         cpu: 1
         disks: "local-disk " + disk_size + " HDD"
         preemptible: 5
-        docker: "brwnj/smoove:v0.2.4"
+        docker: "brentp/smoove:v0.2.5"
     }
 
     output {
@@ -117,7 +117,7 @@ task smoove_merge {
         cpu: 1
         disks: "local-disk " + disk_size + " HDD"
         preemptible: 5
-        docker: "brwnj/smoove:v0.2.4"
+        docker: "brentp/smoove:v0.2.5"
     }
 
     output {
@@ -152,7 +152,7 @@ task smoove_genotype {
         cpu: 1
         disks: "local-disk " + disk_size + " HDD"
         preemptible: 5
-        docker: "brwnj/smoove:v0.2.4"
+        docker: "brentp/smoove:v0.2.5"
     }
 
     output {
@@ -182,7 +182,7 @@ task smoove_square {
         cpu: 1
         disks: "local-disk " + disk_size + " HDD"
         preemptible: 5
-        docker: "brwnj/smoove:v0.2.4"
+        docker: "brentp/smoove:v0.2.5"
     }
 
     output {
