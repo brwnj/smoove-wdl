@@ -1,0 +1,18 @@
+{
+    "smoove.project_id": "wdl-test",
+    "smoove.fasta": "/Users/joe/devel/smoove-wdl/data/g1k_v37_decoy.fa",
+    "smoove.fasta_index": "/Users/joe/devel/smoove-wdl/data/g1k_v37_decoy.fa.fai",
+    "smoove.manifest": "/Users/joe/devel/smoove-wdl/manifest.tsv",
+
+    "smoove.bed": "/Users/joe/devel/smoove-wdl/data/ceph18.b37.lumpy.exclude.2014-01-15.bed",
+    "smoove.gff": "/Users/joe/devel/smoove-wdl/data/Homo_sapiens.GRCh37.82.chr.gff3.gz",
+
+    "smoove.ped": "/Users/joe/devel/smoove-wdl/data/16-08-06_WashU-Yandell-CEPH.ped",
+    "smoove.known_sites": "/Users/joe/devel/smoove-wdl/data/sites.GRCh37.vcf.gz",
+
+    "smoove.exclude_chroms": "~^GL,~^MT,~^NC,~^hs37d5,~^phix",
+    "smoove.sensitive": false,
+    "smoove.small_disk" : 100,
+    "smoove.medium_disk" : 200,
+    "smoove.large_disk" : 500
+}
