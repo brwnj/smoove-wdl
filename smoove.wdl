@@ -85,7 +85,7 @@ task smoove_call {
         memory: "8 GB"
         cpu: 1
         disks: "local-disk " + disk_size + " HDD"
-        preemptible: 5
+        preemptible: 2
         docker: "brentp/smoove:v0.2.5"
     }
 
@@ -116,7 +116,7 @@ task smoove_merge {
         memory: "16 GB"
         cpu: 1
         disks: "local-disk " + disk_size + " HDD"
-        preemptible: 5
+        preemptible: 2
         docker: "brentp/smoove:v0.2.5"
     }
 
@@ -151,7 +151,7 @@ task smoove_genotype {
         memory: "16 GB"
         cpu: 1
         disks: "local-disk " + disk_size + " HDD"
-        preemptible: 5
+        preemptible: 2
         docker: "brentp/smoove:v0.2.5"
     }
 
@@ -181,7 +181,7 @@ task smoove_square {
         memory: "16 GB"
         cpu: 1
         disks: "local-disk " + disk_size + " HDD"
-        preemptible: 5
+        preemptible: 2
         docker: "brentp/smoove:v0.2.5"
     }
 
