@@ -172,7 +172,7 @@ task smoove_square {
     Int disk_size
 
     command {
-        smoove paste --outdir `pwd`/ --name ${project_id} ${vcfs}
+        smoove paste --outdir `pwd`/ --name ${project_id} ${sep=' ' vcfs}
         smoove annotate --gff ${gff} ${project_id}.smoove.square.vcf.gz | bgzip --threads 1 -c > ${project_id}.smoove.square.anno.vcf.gz
         bcftools index ${project_id}.smoove.square.anno.vcf.gz
     }
