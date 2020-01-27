@@ -59,6 +59,11 @@ workflow smoove {
             gff = gff,
             disk_size = small_disk
     }
+    meta {
+        author: "Joe Brown"
+        email: "brwnjm@gmail.com"
+        description: "Run @brentp's smoove to call SVs"
+    }
 }
 
 
